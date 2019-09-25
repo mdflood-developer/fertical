@@ -1,0 +1,54 @@
+<html>
+<head>
+  </head>
+
+  <body>
+    <h1>Fertical v. 0.1</h1>
+    <h3>Copyright (C) 2019 Michael Flood</h3>
+    <h3>Original Fertical implementation by David Flood</h3>
+    <p id="output"></p>
+      <form>
+        <div>
+        <p>1. Enter Crop Name: </p>
+        <input type="text" name="cropname" value="SampleCrop"><br>
+      <p>2. Are You Using An Injector?</p>
+        <input type="radio" id="injector_y"
+         name="injector" value="yes">
+        <label for="contactChoice1">Yes</label>
+
+        <input type="radio" id="injector_n"
+         name="injector" value="no">
+        <label for="injector_n">No</label><br>
+        <p>3. Volume of Tank or Injector (Litres)</p>
+        <input type="number" id="volume" name="tankvolume" min="1" value="1"><br>
+        <p>4. Concentration Factor: Major Elements</p>
+        <input type="number" id="conc_major" name="conc_major" min="1" value="1"><br>
+        <p>5. Concentration Factor: Minor Elements (For Injectors, concentrations must match)</p>
+        <input type="number" id="conc_minor" name="tankvolume" min="1" value="1"><br>
+        <p>6. Water Analysis: Enter the values of the available nutrients already present in your supply water (PPM)</p>
+
+        NITROGEN <input type="number" id="water_N" name="water_nitrogen" min="0" value="0"><br>
+        PHOSPHORUS <input type="number" id="water_P" name="water_phosphorus" min="0" value="0"><br>
+        POTASSIUM <input type="number" id="water_K" name="water_potassium" min="0" value="0"><br>
+        CALCIUM <input type="number" id="water_Ca" name="water_calcium" min="0" value="0"><br>
+        MAGNESIUM <input type="number" id="water_Mg" name="water_magnesium" min="0" value="0"><br>
+        SULPHUR <input type="number" id="water_S" name="water_sulphur" min="0" value="0"><br>
+        IRON <input type="number" id="water_Fe" name="water_iron" min="0" value="0"><br>
+        MANGANESE <input type="number" id="water_Mn" name="water_manganese" min="0" value="0"><br>
+        BORON <input type="number" id="water_B" name="water_boron" min="0" value="0"><br>
+        ZINC <input type="number" id="water_Zn" name="water_zinc" min="0" value="0"><br>
+        COPPER <input type="number" id="water_Cu" name="water_copper" min="0" value="0"><br>
+        MOLYBDENUM <input type="number" id="water_Mo" name="water_molybdenum" min="0" value="0"><br>
+      </div>
+
+
+      <div>
+        <br>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+    <script type="text/javascript" src="js/script.js"></script>
+
+
+  </body>
+</html>

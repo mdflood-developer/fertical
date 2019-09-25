@@ -1,2 +1,2 @@
 # fertical
-Fertilizer mixture calculator in HTML/JavsScript
+Fertilizer mixture calculator in HTML/JavasScript
