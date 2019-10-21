@@ -89,14 +89,196 @@
       </tr>
 </table>
       </div>
-
+      <div class="outline">
+        <p>7. Enter target amount in parts per million for each of the elements you wish to supply:</p>
+<table>
+        <tr>
+          <td>NITROGEN</td>
+          <td><input type="number" id="target_N" name="target_nitrogen" min="0" value="0"><br></td>
+        </tr>
+        <tr>
+        <td>PHOSPHORUS</td>
+        <td><input type="number" id="target_P" name="target_phosphorus" min="0" value="0"><br></td>
+      </tr>
+      <tr>
+        <td>POTASSIUM</td>
+        <td><input type="number" id="target_K" name="target_potassium" min="0" value="0"><br></td>
+      </tr>
+      <tr>
+        <td>CALCIUM</td>
+        <td><input type="number" id="target_Ca" name="target_calcium" min="0" value="0"><br></td>
+      </tr>
+      <tr>
+        <td>MAGNESIUM</td>
+        <td><input type="number" id="target_Mg" name="target_magnesium" min="0" value="0"><br></td>
+      </tr>
+      <tr>
+        <td>SULPHUR</td>
+        <td><input type="number" id="target_S" name="target_sulphur" min="0" value="0"><br></td>
+      </tr>
+      <tr>
+          <td>IRON</td>
+          <td><input type="number" id="target_Fe" name="target_iron" min="0" value="0"><br></td>
+      </tr>
+      <tr>
+        <td>MANGANESE</td>
+        <td><input type="number" id="target_Mn" name="target_manganese" min="0" value="0"><br></td>
+      </tr>
+      <tr>
+        <td>BORON</td>
+        <td><input type="number" id="target_B" name="target_boron" min="0" value="0"><br></td>
+      </tr>
+      <tr>
+        <td>ZINC</td>
+        <td><input type="number" id="target_Zn" name="target_zinc" min="0" value="0"><br></td>
+      </tr>
+      <tr>
+        <td>COPPER</td>
+        <td><input type="number" id="target_Cu" name="target_copper" min="0" value="0"><br></td>
+      </tr>
+      <tr>
+        <td>MOLYBDENUM</td>
+        <td><input type="number" id="target_Mo" name="target_molybdenum" min="0" value="0"><br></td>
+      </tr>
+</table>
+      </div>
+      <div class="outline">
+        <p>8. Begin entering values in the 'PPM' column of the table below. A running tally is kept next
+        to your target values in the column tot he right. Simply use trial and error until the target and
+      tally amounts match. You may select any combination of fertilizers that will complete a formula. However,
+    it is normal to start with calcium and use the minimum number of fertilizers that will do the job.</p>
+<table>
+        <tr>
+          <th>Fertilizer</th>
+          <th>Target</th>
+          <th>Grams Needed</th>
+        </tr>
+        <tr>
+          <td>Calclium Nitrate</td>
+          <td><input type="number" id="CN" name="CalciumNitrate" min="0" value="0"></td>
+          <td><p id="cn_out"></p></td>
+        </tr>
+        <tr>
+          <td>Magnesium Sulphate</td>
+          <td><input type="number" id="MS" name="MS" min="0" value="0"></td>
+          <td><p id="ms_out"></p></td>
+        </tr>
+        <tr>
+          <td>Monopotassium Phosphate</td>
+          <td><input type="number" id="MP" name="MP" min="0" value="0"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Potassium Nitrate</td>
+          <td><input type="number" id="PN" name="PN" min="0" value="0"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Potassium Chloride</td>
+          <td><input type="number" id="PC" name="PC" min="0" value="0"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Potassium Sulphate</td>
+          <td><input type="number" id="PS" name="PS" min="0" value="0"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Phosphoric Acid (75%)</td>
+          <td><input type="number" id="PA" name="PA" min="0" value="0"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Diammonium Phosphate</td>
+          <td><input type="number" id="DP" name="DP" min="0" value="0"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Monoammonium Phosphate</td>
+          <td><input type="number" id="MAP" name="MAP" min="0" value="0"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Nitric Acid (67%)</td>
+          <td><input type="number" id="NA" name="NA" min="0" value="0"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Ammonium Nitrate</td>
+          <td><input type="number" id="AN" name="AN" min="0" value="0"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Iron Chelate (13.3%)</td>
+          <td><input type="number" id="IC" name="IC" min="0" value="0"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Manganese Sulphate</td>
+          <td><input type="number" id="MangaS" name="MangaS" min="0" value="0"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Manganese Chelate</td>
+          <td><input type="number" id="MangaC" name="MangaC" min="0" value="0"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Solubor</td>
+          <td><input type="number" id="Solubor" name="Solubor" min="0" value="0"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Borax</td>
+          <td><input type="number" id="Borax" name="Borax" min="0" value="0"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Sodium Pentaborate</td>
+          <td><input type="number" id="SodiumPentaborate" name="SodiumPentaborate" min="0" value="0"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Zinc Sulphate</td>
+          <td><input type="number" id="ZincSulphate" name="ZincSulphate" min="0" value="0"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Zinc Chelate</td>
+          <td><input type="number" id="ZincChelate" name="ZincChelate" min="0" value="0"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Copper Sulphate</td>
+          <td><input type="number" id="CopperSulphate" name="CopperSulphate" min="0" value="0"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Copper Chelate</td>
+          <td><input type="number" id="CopperChelate" name="CopperChelate" min="0" value="0"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Sodium Molybdate</td>
+          <td><input type="number" id="SodiumMolybdate" name="SodiumMolybdate" min="0" value="0"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Ammonium Molybdate</td>
+          <td><input type="number" id="Ammonium" name="Molybdate" min="0" value="0"></td>
+          <td></td>
+        </tr>
+</table>
+      </div>
 
       <div>
+        <p id="outputA"></p>
         <br>
-        <button type="submit">Submit</button>
+        <button name="testbutton" type="button" id="testbutton">Test Values</button>
       </div>
     </form>
-    <script type="text/javascript" src="js/script.js"></script>
+<p id="outputA"></p>
+    <script src="js/script.js"></script>
 
 
   </body>
